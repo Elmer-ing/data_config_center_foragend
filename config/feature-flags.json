@@ -1,0 +1,12 @@
+{
+  "features": {
+    "agendamiento_express": {
+      "activo": true,
+      "solo_administradores": false
+    },
+    "pagos_online": {
+      "activo": false,
+      "motivo": "En desarrollo"
+    }
+  }
+}

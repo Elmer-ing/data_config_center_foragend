@@ -1,0 +1,15 @@
+{
+  "paleta_colores": {
+    "primario": "#2D3748",
+    "secundario": "#4299E1",
+    "fondo": "#F7FAFC"
+  },
+  "fuentes": {
+    "principal": "'Inter', sans-serif",
+    "secundaria": "'Roboto Mono', monospace"
+  },
+  "espaciado": {
+    "base": "1rem",
+    "multiplos": [0.5, 1, 2, 4]
+  }
+}

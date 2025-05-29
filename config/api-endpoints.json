@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "descripcion": "Reservado para futuras integraciones API",
+    "actualizado": "2025-01-15",
+    "estado": "inactivo"
+  },
+  "apis": {
+    "ejemplo_plantilla": {
+      "url": "",
+      "documentacion": "https://ejemplo.com/api-docs"
+    }
+  }
+}

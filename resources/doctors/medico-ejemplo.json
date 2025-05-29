@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "tipo": "datos_ejemplo",
+    "generado_el": "2025-01-01",
+    "autor": "FORAGEND Team"
+  },
+  "medicos": [
+    {
+      "id_publico": "MED-EX-001",
+      "nombre_completo": "Dra. Laura Jiménez",
+      "especialidad_principal": "Dermatología",
+      "especialidades_secundarias": ["Cosmetología"],
+      "disponibilidad": {
+        "dias": ["Lunes", "Miércoles", "Viernes"],
+        "franja": "09:00-13:00"
+      }
+    },
+    {
+      "id_publico": "MED-EX-002",
+      "nombre_completo": "Dr. Marcos Rojas",
+      "especialidad_principal": "Traumatología",
+      "disponibilidad": {
+        "dias": ["Martes", "Jueves"],
+        "franja": "14:00-18:00"
+      }
+    }
+  ]
+}

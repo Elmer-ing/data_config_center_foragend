@@ -1,0 +1,13 @@
+{
+  "ambiente": "development",
+  "configuracion": {
+    "timezone": "America/Bogota",
+    "idioma_default": "es",
+    "max_citas_diarias": 20,
+    "notificaciones": {
+      "email_activo": false,
+      "sms_activo": false
+    }
+  },
+  "version": "1.0.0-alpha"
+}

@@ -1,0 +1,30 @@
+{
+  "configuracion_global": {
+    "duracion_cita_minutos": 30,
+    "dias_laborables": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
+    "excepciones": {
+      "festivos": ["2025-12-25", "2025-01-01"]
+    }
+  },
+  "franjas": [
+    {
+      "tipo": "disponible",
+      "hora_inicio": "08:00",
+      "hora_fin": "12:00",
+      "dias": ["Lunes", "Miércoles", "Viernes"]
+    },
+    {
+      "tipo": "fuera_de_servicio",
+      "hora_inicio": "12:00",
+      "hora_fin": "14:00",
+      "dias": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
+      "motivo": "Almuerzo/Descanso"
+    },
+    {
+      "tipo": "disponible",
+      "hora_inicio": "14:00",
+      "hora_fin": "18:00",
+      "dias": ["Martes", "Jueves"]
+    }
+  ]
+}
