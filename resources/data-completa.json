@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "ultima_actualizacion": "2025-05-29",
+    "version": "2.0.0"
+  },
+  "doctores": [
+    {
+      "id": "DOC-001",
+      "nombre": "Dra. Ana López",
+      "especialidad": "Cardiología",
+      "horario_id": "HOR-001"
+    }
+  ],
+  "horarios": [
+    {
+      "id": "HOR-001",
+      "dias": ["Lunes", "Miércoles"],
+      "franjas": ["08:00-12:00", "14:00-18:00"]
+    }
+  ]
+}
