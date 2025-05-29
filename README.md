@@ -7,6 +7,12 @@
 `EN DESARROLLO ACTIVO` - None  
 Última actualización repositorio: 
 
+## 📂 Datos de Ejemplo  
+Los archivos en `/resources/` contienen información **ficticia** para desarrollo:  
+- Nombres generados aleatoriamente  
+- IDs no relacionados con sistemas reales  
+- Uso exclusivo para pruebas técnicas  
+
 ## 📌 Propósito
 Este repositorio alimenta al proyecto principal [FORK - FORAGEND](https://github.com/Elmer-ing/FORAGEND) con:
 - Configuraciones públicas para el frontend React
