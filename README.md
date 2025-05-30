@@ -4,7 +4,7 @@
 *(Sistema de gestión de citas médicas en desarrollo con React + Vite)*
 
 ## 🌟 Estado Actual
-`EN DESARROLLO ACTIVO` - None  
+`EN DESARROLLO ACTIVO`
 Última actualización repositorio: 
 
 ## 📂 Datos de Ejemplo  
