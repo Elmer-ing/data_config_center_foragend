@@ -1,4 +1,4 @@
-# 🏥 Data Config Center - FORAGEND ⚛️
+# 🏥 Data Config Center - FORAGEND
 
 **Repositorio centralizado de configuración para [FORAGEND](https://github.com/Elmer-ing/FORAGEND)**
 
