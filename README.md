@@ -4,7 +4,9 @@
 *(Sistema de gestión de citas médicas en desarrollo con React + Vite)*
 
 ## 🌟 Estado Actual
+
 `EN DESARROLLO ACTIVO`
+
 Última actualización repositorio: 
 
 ## 📂 Datos de Ejemplo  
@@ -17,7 +19,7 @@ Los archivos en `/resources/` contienen información **ficticia** para desarroll
 Este repositorio alimenta al proyecto principal [FORK - FORAGEND](https://github.com/Elmer-ing/FORAGEND) con:
 - Configuraciones públicas para el frontend React
 - Catálogos médicos consumidos via API
-- Estructuras para i18n (internacionalización)
+
 
 ## 🛠 Compatibilidad
 | Componente       | Versión  |
