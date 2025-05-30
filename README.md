@@ -1,115 +1,171 @@
-# Data Config Center - FORAGEND 🏥⚛️
+# 🏥 Data Config Center - FORAGEND ⚛️
 
-**Repositorio centralizado de configuración para FORAGEND**  
-*(Sistema de gestión de citas médicas en desarrollo con React + Vite)*
+**Repositorio centralizado de configuración para [FORAGEND](https://github.com/Elmer-ing/FORAGEND)**
 
-## 🌟 Estado Actual
+> Sistema web para gestión de citas médicas – desarrollado con React + Vite
 
-`EN DESARROLLO ACTIVO`
+---
 
-Última actualización repositorio: 
+## ⚠️ Estado del Proyecto
 
-## 📂 Datos de Ejemplo  
-Los archivos en `/resources/` contienen información **ficticia** para desarrollo:  
-- Nombres generados aleatoriamente  
-- IDs no relacionados con sistemas reales  
-- Uso exclusivo para pruebas técnicas  
+🛠 **EN DESARROLLO ACTIVO**
+Última actualización: *(actualízala manualmente o con un script)*
 
-## 📌 Propósito
-Este repositorio alimenta al proyecto principal [FORK - FORAGEND](https://github.com/Elmer-ing/FORAGEND) con:
-- Configuraciones públicas para el frontend React
-- Catálogos médicos consumidos via API
+---
 
+## 🎯 Propósito
 
-## 🛠 Compatibilidad
-| Componente       | Versión  |
-|------------------|----------|
-| React            | ^18.2.0  |
-| Vite             | ^4.4.0   |
-| Node.js          | ^18.x    |
+Este repositorio proporciona **configuraciones públicas** utilizadas por el frontend de FORAGEND:
 
-## 🗂 Estructura del Repositorio
-```
+* Catálogos médicos y clínicos accesibles vía proxy HTTP
+* Configuraciones de UI y flags de funcionalidades
+* Datos de ejemplo para desarrollo y pruebas
+
+---
+
+## 📂 Estructura del Repositorio
+
+```bash
 data_config_center_foragend/
 ├── config/
-│   ├── frontend-config.json  # Opciones UI para React
-│   ├── theme-config.json    # ThemeProvider (Tailwind/Chakra)
-│   └── feature-flags.json   # Funcionalidades en desarrollo
+│   ├── app-config.json         # Configuración general de la app
+│   ├── theme-config.json       # Colores, fuentes, layouts base
+│   └── feature-flags.json      # Habilita/deshabilita módulos del frontend
 │
 ├── resources/
-│   ├── medical-specialties.json 
-│   └── clinics.json         # Usado en <LocationSearch>
+│   ├── doctors/
+│   │   └── medico-ejemplo.json # Base de datos simulada de médicos
+│   ├── horarios/
+│   │   └── config.json         # Días hábiles, feriados, turnos
+│   ├── usuarios
+│   │   └── usuarios-ejemplo.json # Base de datos simulada de usuarios
+│   └──data-completa.json
 │
-└── react-hooks/            # (Próxima versión)
-    └── useConfigLoader.js  # Hook para cargar configs
+└── react-hooks/
+    └── useConfigLoader.js      # Hook para cargar JSON remoto (proximamente)
 ```
 
-## 💡 Ejemplo de Uso en React
-```jsx
-// En tu componente React + Vite
-import medicalData from '../config/medical-specialties.json';
+> ⚠️ **Importante**: Los datos en `/resources/` son **ficticios** y generados con fines exclusivamente técnicos.
 
-function SpecialtySelector() {
+---
+
+## 🚀 Cómo se Integra con FORAGEND (Frontend)
+
+### 1. Proxy vía Vite
+
+El proyecto FORAGEND usa un proxy HTTP para consumir directamente los archivos `.json` desde este repo (hosteado en GitHub):
+
+```js
+// vite.config.js en FORAGEND
+server: {
+  proxy: {
+    '/github-config': {
+      target: 'https://raw.githubusercontent.com',
+      rewrite: (path) =>
+        path.replace('/github-config', '/Elmer-ing/data_config_center_foragend/main'),
+    },
+  },
+}
+```
+
+**Ejemplo de consumo en frontend:**
+
+```js
+fetch('/github-config/resources/doctors/medico-ejemplo.json')
+```
+
+---
+
+### 2. Caching Inteligente
+
+El frontend aplica una **estrategia de caché en dos capas**:
+
+1. `sessionStorage`: Lectura rápida si ya se ha consultado.
+2. `Service Worker`: Respaldo offline, carga desde cache del navegador.
+
+```js
+// En ApiService.js
+const cached = sessionStorage.getItem('doctors_cache');
+if (cached) return JSON.parse(cached);
+
+const res = await fetch('/github-config/resources/doctors/medico-ejemplo.json');
+const data = await res.json();
+sessionStorage.setItem('doctors_cache', JSON.stringify(data));
+return data;
+```
+
+---
+
+## 💡 Ejemplo de Uso en React
+
+```jsx
+// SpecialtySelector.jsx
+import specialties from '/github-config/resources/medical-specialties.json';
+
+export function SpecialtySelector() {
   return (
     <select>
-      {medicalData.map(specialty => (
-        <option key={specialty.id} value={specialty.id}>
-          {specialty.name}
-        </option>
+      {specialties.map(({ id, name }) => (
+        <option key={id} value={id}>{name}</option>
       ))}
     </select>
   );
 }
 ```
 
-## 🚀 Integración con Vite
-```javascript
-// vite.config.js
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+---
 
-export default defineConfig({
-  plugins: [react()],
-  server: {
-    proxy: {
-      '/config': {
-        target: 'https://raw.githubusercontent.com/Elmer-ing/data_config_center_foragend/main',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/config/, '')
-      }
-    }
-  }
-});
-```
+## 📦 Instalación como Módulo (opcional)
 
-## 📦 Instalación como Módulo
-1. Añade como dependencia:
+Puedes consumir directamente este repo como dependencia:
+
 ```bash
-npm install github:tu-usuario/data_config_center_foragend#main
+npm install github:Elmer-ing/data_config_center_foragend#main
 ```
 
-2. Importa configs en tu app:
-```javascript
+```js
+// Luego en tu app
 import appConfig from 'data_config_center_foragend/config/app-config.json';
 ```
 
-## 🛠 Roadmap Técnico
-- [x] Fase 1: Estructura base (Q2 2024)
-- [ ] Fase 2: Hooks para React (Q3 2024)
-- [ ] Fase 3: CLI para validación (Q4 2024)
+---
+
+## 🗺 Roadmap Técnico
+
+| Fase | Descripción                       | Estado      |
+| ---- | --------------------------------- | ----------- |
+| 1    | Estructura base + datos simulados | ✅ Hecho     |
+| 2    | Hooks de carga dinámica (React)   | 🔄 En curso |
+| 3    | CLI para validación de estructura | ⏳ Planeado  |
+
+---
 
 ## 🤝 ¿Cómo Contribuir?
-1. Clona ambos repos:
-```bash
-git clone https://github.com/Elmer-ing/FORAGEND
-https://github.com/Elmer-ing/data_config_center_foragend/
-```
 
-2. Sincroniza cambios:
-```bash
-cd foragend
-npm run sync-configs  # Script personalizado para actualizar
-```
+1. Clona los dos repos:
+
+   ```bash
+   git clone https://github.com/Elmer-ing/FORAGEND
+   git clone https://github.com/Elmer-ing/data_config_center_foragend
+   ```
+
+2. Usa un script personalizado para sincronizar cambios:
+
+   ```bash
+   cd FORAGEND
+   npm run sync-configs
+   ```
+
+---
+
+## 🔐 Consideraciones de Seguridad
+
+* Este repo no contiene información sensible ni privada.
+* Ideal para servir como backend de configuración en aplicaciones JAMStack.
+
+---
 
 ## 📜 Licencia
-MIT - Equipo FORAGEND
+
+**MIT** — desarrollado por el equipo FORAGEND
+

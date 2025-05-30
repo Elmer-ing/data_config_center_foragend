@@ -1,0 +1,1531 @@
+{
+  "meta": {
+    "total": 100,
+    "version": "2.0.0",
+    "fecha_generacion": "2025-05-29T20:51:54.436Z"
+  },
+  "doctores": [
+    {
+      "id_publico": "DOC-001",
+      "nombre_completo": "Dra. Gabriela Ramírez Flores",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 962924233",
+        "email": "gabriela.ramírez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-002",
+      "nombre_completo": "Dra. Valeria González Sánchez",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Cardiología Pediátrica",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 972525858",
+        "email": "valeria.gonzález@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-003",
+      "nombre_completo": "Dr. Roberto Rodríguez Flores",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Cardiología Pediátrica",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 942221312",
+        "email": "roberto.rodríguez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-004",
+      "nombre_completo": "Dr. Carlos Torres Pérez",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Hemodinamia",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 936440072",
+        "email": "carlos.torres@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-005",
+      "nombre_completo": "Dr. Miguel García Martínez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 976631989",
+        "email": "miguel.garcía@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-006",
+      "nombre_completo": "Dr. Luis Flores Torres",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Neurología Pediátrica",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 956242562",
+        "email": "luis.flores@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-007",
+      "nombre_completo": "Dra. Laura Rodríguez González",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 966454144",
+        "email": "laura.rodríguez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-008",
+      "nombre_completo": "Dr. José López Martínez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 909069830",
+        "email": "josé.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-009",
+      "nombre_completo": "Dra. Gabriela Pérez Torres",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 978830440",
+        "email": "gabriela.pérez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-010",
+      "nombre_completo": "Dr. Roberto Flores Martínez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 954980777",
+        "email": "roberto.flores@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-011",
+      "nombre_completo": "Dra. María González García",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 978563702",
+        "email": "maría.gonzález@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-012",
+      "nombre_completo": "Dr. Roberto García Sánchez",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Neonatología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 916060098",
+        "email": "roberto.garcía@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-013",
+      "nombre_completo": "Dr. Carlos Flores Torres",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 909116190",
+        "email": "carlos.flores@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-014",
+      "nombre_completo": "Dr. Fernando Rodríguez Ramírez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 981145948",
+        "email": "fernando.rodríguez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-015",
+      "nombre_completo": "Dra. Patricia Pérez Rodríguez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Clínica San Carlos",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 976152102",
+        "email": "patricia.pérez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-016",
+      "nombre_completo": "Dr. Andrés Sánchez García",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 918447789",
+        "email": "andrés.sánchez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-017",
+      "nombre_completo": "Dr. Roberto González López",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 946541287",
+        "email": "roberto.gonzález@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-018",
+      "nombre_completo": "Dra. Patricia García López",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Arritmias",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 960404056",
+        "email": "patricia.garcía@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-019",
+      "nombre_completo": "Dra. María Rodríguez Sánchez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Clínica San Carlos",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 957835573",
+        "email": "maría.rodríguez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-020",
+      "nombre_completo": "Dra. Daniela Torres Torres",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 974920142",
+        "email": "daniela.torres@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-021",
+      "nombre_completo": "Dra. Sofía Torres Sánchez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 902624574",
+        "email": "sofía.torres@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-022",
+      "nombre_completo": "Dra. Ana Rodríguez Ramírez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 932994898",
+        "email": "ana.rodríguez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-023",
+      "nombre_completo": "Dra. Ana Pérez Rodríguez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 960956493",
+        "email": "ana.pérez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-024",
+      "nombre_completo": "Dr. Miguel Sánchez Sánchez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 925956788",
+        "email": "miguel.sánchez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-025",
+      "nombre_completo": "Dr. Miguel Rodríguez Sánchez",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Cardiología Pediátrica",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 907184437",
+        "email": "miguel.rodríguez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-026",
+      "nombre_completo": "Dra. Sofía Flores Ramírez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 959654425",
+        "email": "sofía.flores@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-027",
+      "nombre_completo": "Dra. Daniela Torres Ramírez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Hospital Central",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 977361508",
+        "email": "daniela.torres@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-028",
+      "nombre_completo": "Dr. Andrés Martínez Flores",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Neurología Pediátrica",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 911228253",
+        "email": "andrés.martínez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-029",
+      "nombre_completo": "Dra. María Flores Pérez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Hospital Central",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 920512133",
+        "email": "maría.flores@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-030",
+      "nombre_completo": "Dra. Camila Torres Martínez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 940652034",
+        "email": "camila.torres@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-031",
+      "nombre_completo": "Dra. Camila González González",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Clínica San Carlos",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 917553795",
+        "email": "camila.gonzález@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-032",
+      "nombre_completo": "Dra. Camila López Ramírez",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Arritmias",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 951029203",
+        "email": "camila.lópez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-033",
+      "nombre_completo": "Dr. Javier Flores Flores",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 979998158",
+        "email": "javier.flores@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-034",
+      "nombre_completo": "Dr. Fernando López Martínez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 962401049",
+        "email": "fernando.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-035",
+      "nombre_completo": "Dra. Camila Flores Pérez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 917035745",
+        "email": "camila.flores@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-036",
+      "nombre_completo": "Dr. Luis Ramírez Pérez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 953907944",
+        "email": "luis.ramírez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-037",
+      "nombre_completo": "Dr. Fernando Martínez González",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 980511616",
+        "email": "fernando.martínez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-038",
+      "nombre_completo": "Dr. Fernando Martínez Flores",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 971482024",
+        "email": "fernando.martínez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-039",
+      "nombre_completo": "Dr. Diego Flores Rodríguez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 963447699",
+        "email": "diego.flores@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-040",
+      "nombre_completo": "Dra. María García Rodríguez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 919890740",
+        "email": "maría.garcía@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-041",
+      "nombre_completo": "Dra. Daniela Martínez Torres",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 988900343",
+        "email": "daniela.martínez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-042",
+      "nombre_completo": "Dr. Luis Torres López",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 951269452",
+        "email": "luis.torres@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-043",
+      "nombre_completo": "Dra. Isabel Rodríguez Martínez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 957276426",
+        "email": "isabel.rodríguez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-044",
+      "nombre_completo": "Dr. Carlos Martínez Ramírez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 995366937",
+        "email": "carlos.martínez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-045",
+      "nombre_completo": "Dr. Roberto López Torres",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 973512196",
+        "email": "roberto.lópez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-046",
+      "nombre_completo": "Dra. Daniela López García",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Hemodinamia",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 994622830",
+        "email": "daniela.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-047",
+      "nombre_completo": "Dra. María Ramírez García",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Cardiología Pediátrica",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 949482217",
+        "email": "maría.ramírez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-048",
+      "nombre_completo": "Dr. Luis Rodríguez Torres",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 974771329",
+        "email": "luis.rodríguez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-049",
+      "nombre_completo": "Dr. José González Flores",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 994189989",
+        "email": "josé.gonzález@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-050",
+      "nombre_completo": "Dra. Sofía López López",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Hospital Central",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 920290383",
+        "email": "sofía.lópez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-051",
+      "nombre_completo": "Dr. Fernando Torres González",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 972592033",
+        "email": "fernando.torres@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-052",
+      "nombre_completo": "Dra. Camila Sánchez Pérez",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Neonatología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 958762135",
+        "email": "camila.sánchez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-053",
+      "nombre_completo": "Dr. Roberto López González",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 920905449",
+        "email": "roberto.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-054",
+      "nombre_completo": "Dra. Daniela Martínez González",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 918438636",
+        "email": "daniela.martínez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-055",
+      "nombre_completo": "Dra. Gabriela Ramírez García",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Arritmias",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 998173711",
+        "email": "gabriela.ramírez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-056",
+      "nombre_completo": "Dr. Juan García Sánchez",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Hemodinamia",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 923941623",
+        "email": "juan.garcía@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-057",
+      "nombre_completo": "Dr. Luis López Ramírez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 946335481",
+        "email": "luis.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-058",
+      "nombre_completo": "Dr. Roberto Martínez Martínez",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Arritmias",
+      "hospital": "Clínica San Carlos",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 919525762",
+        "email": "roberto.martínez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-059",
+      "nombre_completo": "Dra. Daniela González González",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Neurología Pediátrica",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 999529373",
+        "email": "daniela.gonzález@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-060",
+      "nombre_completo": "Dr. Juan Ramírez Rodríguez",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Neurología Pediátrica",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 921708481",
+        "email": "juan.ramírez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-061",
+      "nombre_completo": "Dra. Sofía Sánchez Rodríguez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 914759585",
+        "email": "sofía.sánchez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-062",
+      "nombre_completo": "Dr. Juan García López",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 973523951",
+        "email": "juan.garcía@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.437Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-063",
+      "nombre_completo": "Dr. Miguel Pérez Martínez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 904795107",
+        "email": "miguel.pérez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-064",
+      "nombre_completo": "Dr. Luis López Sánchez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 991652070",
+        "email": "luis.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-065",
+      "nombre_completo": "Dr. Diego González González",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 975442957",
+        "email": "diego.gonzález@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-066",
+      "nombre_completo": "Dr. Luis Torres Pérez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Clínica San Carlos",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 909214498",
+        "email": "luis.torres@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-067",
+      "nombre_completo": "Dra. María González García",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 918265513",
+        "email": "maría.gonzález@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-068",
+      "nombre_completo": "Dra. Isabel García González",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 999802684",
+        "email": "isabel.garcía@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-069",
+      "nombre_completo": "Dr. Javier López Martínez",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Ecocardiografía",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 988225804",
+        "email": "javier.lópez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-070",
+      "nombre_completo": "Dra. Ana López Ramírez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 928065186",
+        "email": "ana.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-071",
+      "nombre_completo": "Dra. Sofía Pérez Sánchez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 994561745",
+        "email": "sofía.pérez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-072",
+      "nombre_completo": "Dra. Sofía Torres Pérez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 971576247",
+        "email": "sofía.torres@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-073",
+      "nombre_completo": "Dr. Luis Ramírez Rodríguez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 942134028",
+        "email": "luis.ramírez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-074",
+      "nombre_completo": "Dr. Diego López Rodríguez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 919346632",
+        "email": "diego.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-075",
+      "nombre_completo": "Dra. Patricia González Sánchez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 984270835",
+        "email": "patricia.gonzález@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-076",
+      "nombre_completo": "Dra. Laura Rodríguez González",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 959975366",
+        "email": "laura.rodríguez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-077",
+      "nombre_completo": "Dr. Miguel López Pérez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 937188501",
+        "email": "miguel.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-078",
+      "nombre_completo": "Dra. Gabriela Rodríguez Sánchez",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Arritmias",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 997532690",
+        "email": "gabriela.rodríguez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-079",
+      "nombre_completo": "Dr. Carlos Martínez González",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 991380071",
+        "email": "carlos.martínez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-080",
+      "nombre_completo": "Dra. Camila Sánchez Pérez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 952556269",
+        "email": "camila.sánchez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-081",
+      "nombre_completo": "Dra. Camila González López",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 960937429",
+        "email": "camila.gonzález@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-082",
+      "nombre_completo": "Dr. Carlos Ramírez Flores",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Arritmias",
+      "hospital": "Clínica San Carlos",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 963482836",
+        "email": "carlos.ramírez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-083",
+      "nombre_completo": "Dra. Sofía Rodríguez García",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 912297578",
+        "email": "sofía.rodríguez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-084",
+      "nombre_completo": "Dr. Juan García González",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 900373029",
+        "email": "juan.garcía@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-085",
+      "nombre_completo": "Dr. Andrés Flores Ramírez",
+      "especialidad_principal": "Pediatría",
+      "subespecialidad": "Cardiología Pediátrica",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 901357238",
+        "email": "andrés.flores@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-086",
+      "nombre_completo": "Dra. Laura López Flores",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 958577276",
+        "email": "laura.lópez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-087",
+      "nombre_completo": "Dra. Patricia Sánchez Pérez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 983353489",
+        "email": "patricia.sánchez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-088",
+      "nombre_completo": "Dra. Isabel Torres González",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 984110210",
+        "email": "isabel.torres@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-089",
+      "nombre_completo": "Dr. José Ramírez Torres",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 918751089",
+        "email": "josé.ramírez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-090",
+      "nombre_completo": "Dr. Luis López Torres",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 909029264",
+        "email": "luis.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-091",
+      "nombre_completo": "Dra. Ana Flores López",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Clínica San Carlos",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 965555992",
+        "email": "ana.flores@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-092",
+      "nombre_completo": "Dr. Luis López González",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 998047146",
+        "email": "luis.lópez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-093",
+      "nombre_completo": "Dra. Daniela López Pérez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Hospital Central",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 986272203",
+        "email": "daniela.lópez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-094",
+      "nombre_completo": "Dra. Patricia Flores Rodríguez",
+      "especialidad_principal": "Cardiología",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Martes/Jueves 07:30-13:00",
+      "contacto": {
+        "telefono": "+51 929953799",
+        "email": "patricia.flores@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-095",
+      "nombre_completo": "Dra. Camila Sánchez Torres",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 950116288",
+        "email": "camila.sánchez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-096",
+      "nombre_completo": "Dr. Fernando Ramírez Rodríguez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 979802857",
+        "email": "fernando.ramírez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-097",
+      "nombre_completo": "Dr. Andrés Flores García",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Clínica San Carlos",
+      "horario": "Lunes/Miércoles/Viernes 08:00-12:00 y 14:00-18:00",
+      "contacto": {
+        "telefono": "+51 907829797",
+        "email": "andrés.flores@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-098",
+      "nombre_completo": "Dr. Juan Ramírez García",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 924200153",
+        "email": "juan.ramírez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-099",
+      "nombre_completo": "Dra. Valeria López Ramírez",
+      "especialidad_principal": "Pediatría",
+      "hospital": "Instituto Cardiológico",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 942858547",
+        "email": "valeria.lópez@clinic.org"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    },
+    {
+      "id_publico": "DOC-100",
+      "nombre_completo": "Dr. Luis Ramírez Torres",
+      "especialidad_principal": "Cardiología",
+      "subespecialidad": "Hemodinamia",
+      "hospital": "Centro Médico Los Andes",
+      "horario": "Lunes/Miércoles 15:00-20:00",
+      "contacto": {
+        "telefono": "+51 994751654",
+        "email": "luis.ramírez@medicenter.pe"
+      },
+      "metadata": {
+        "generado_el": "2025-05-29T20:51:54.438Z",
+        "ultima_actualizacion": null
+      }
+    }
+  ]
+}
