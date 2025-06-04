@@ -1,28 +1,21 @@
 {
   "configuracion": {
-    "dias_descanso": [
-      "Domingo"
-    ],
+    "dias_descanso": ["Domingo"],
     "apertura": "08:00",
     "cierre": "18:00",
     "duracion_cita": 30,
-    "ultima_actualizacion": "2025-05-29T20:58:15.948Z"
+    "ultima_actualizacion": "2025-05-29T20:58:15.948Z",
+    "dias_habiles_maximos": 15,
+    "dias_anticipacion_minima": 2,
+    "dias_habiles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
   },
   "horarios": [
     {
       "dia": "Lunes",
       "tipo": "horario_normal",
       "bloques": [
-        {
-          "inicio": "08:00",
-          "fin": "12:00",
-          "tipo": "mañana"
-        },
-        {
-          "inicio": "14:00",
-          "fin": "18:00",
-          "tipo": "tarde"
-        }
+        { "inicio": "08:00", "fin": "12:00", "tipo": "mañana" },
+        { "inicio": "14:00", "fin": "18:00", "tipo": "tarde" }
       ],
       "citas_por_bloque": 8
     },
@@ -30,16 +23,8 @@
       "dia": "Martes",
       "tipo": "horario_normal",
       "bloques": [
-        {
-          "inicio": "08:00",
-          "fin": "12:00",
-          "tipo": "mañana"
-        },
-        {
-          "inicio": "14:00",
-          "fin": "18:00",
-          "tipo": "tarde"
-        }
+        { "inicio": "08:00", "fin": "12:00", "tipo": "mañana" },
+        { "inicio": "14:00", "fin": "18:00", "tipo": "tarde" }
       ],
       "citas_por_bloque": 8
     },
@@ -47,16 +32,8 @@
       "dia": "Miércoles",
       "tipo": "horario_normal",
       "bloques": [
-        {
-          "inicio": "08:00",
-          "fin": "12:00",
-          "tipo": "mañana"
-        },
-        {
-          "inicio": "14:00",
-          "fin": "18:00",
-          "tipo": "tarde"
-        }
+        { "inicio": "08:00", "fin": "12:00", "tipo": "mañana" },
+        { "inicio": "14:00", "fin": "18:00", "tipo": "tarde" }
       ],
       "citas_por_bloque": 8
     },
@@ -64,16 +41,8 @@
       "dia": "Jueves",
       "tipo": "horario_normal",
       "bloques": [
-        {
-          "inicio": "08:00",
-          "fin": "12:00",
-          "tipo": "mañana"
-        },
-        {
-          "inicio": "14:00",
-          "fin": "18:00",
-          "tipo": "tarde"
-        }
+        { "inicio": "08:00", "fin": "12:00", "tipo": "mañana" },
+        { "inicio": "14:00", "fin": "18:00", "tipo": "tarde" }
       ],
       "citas_por_bloque": 8
     },
@@ -81,16 +50,8 @@
       "dia": "Viernes",
       "tipo": "horario_normal",
       "bloques": [
-        {
-          "inicio": "08:00",
-          "fin": "12:00",
-          "tipo": "mañana"
-        },
-        {
-          "inicio": "14:00",
-          "fin": "18:00",
-          "tipo": "tarde"
-        }
+        { "inicio": "08:00", "fin": "12:00", "tipo": "mañana" },
+        { "inicio": "14:00", "fin": "18:00", "tipo": "tarde" }
       ],
       "citas_por_bloque": 8
     },
@@ -98,16 +59,8 @@
       "dia": "Sábado",
       "tipo": "horario_normal",
       "bloques": [
-        {
-          "inicio": "08:00",
-          "fin": "12:00",
-          "tipo": "mañana"
-        },
-        {
-          "inicio": "14:00",
-          "fin": "18:00",
-          "tipo": "tarde"
-        }
+        { "inicio": "08:00", "fin": "12:00", "tipo": "mañana" },
+        { "inicio": "14:00", "fin": "18:00", "tipo": "tarde" }
       ],
       "citas_por_bloque": 8
     },
