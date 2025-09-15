@@ -1,0 +1,7 @@
+{
+  "configuracion": {
+    "dias_descanso": ["Domingo"],
+    "minDiasAnticipacion": 1,
+    "maxDiasHabiles": 14
+  }
+}
